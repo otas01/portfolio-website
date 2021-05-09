@@ -1,20 +1,17 @@
-body {
-  background-image: url(/Images/homepage.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 h4 {
   color: white;
   text-align: center;
 }
 h1 {
   text-align: center;
-  color: #06080a;
+  color: black;
   font-size: 50pt;
 }
+a {
+  color: #8f31a1;
+}
 a.nav-link:hover {
-  background-color: rgba(0, 0, 0, 0.104);
+  background-color: #ecebed;
 }
 h3 {
   display: inline;
@@ -24,15 +21,16 @@ svg {
   position: relative;
 }
 
+/*  code for animation from https://codepen.io/shawkdsn/pen/haGzE */
 .animate-reveal {
   opacity: 0;
-  animation: reveal 7s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+  animation: reveal 5s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
 }
 
 .animate-first {
-  -webkit-animation-delay: 0;
-  -moz-animation-delay: 0;
-  -o-animation-delay: 0;
+  -webkit-animation-delay: 3;
+  -moz-animation-delay: 3;
+  -o-animation-delay: 3;
   animation-delay: 3;
 }
 .animate-second {
