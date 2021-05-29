@@ -14,67 +14,90 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body style="color: white; background-color: rgb(0, 0, 0)">
+
+    <!-- code snipppet for contact form from https://mdbootstrap.com/docs/b4/jquery/forms/contact/ -->
     <div class="container">
-      <nav class="navbar navbar-expand-sm bg-primary justify-content-end">
-        <a class="navbar-brand" href="#"
-          ><img src="/logo.svg" alt="brandlogo" width="40" height="40"
-        /></a>
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html" target="_blank">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Porftolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html" target="_blank">Contact</a>
-          </li>
-        </ul>
-      </nav>
-      <h2>Contact</h2>
-      <form>
-        <div class="form-group">
-          <label for="name">Name</label>
-          <input
-            type="name"
-            class="form-control"
-            id="name"
-            placeholder=" Enter name"
-          />
+    <!--Section: Contact v.2-->
+<section class="mb-4">
+
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Need our services? Get in touch</h2>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5">Get a response in 24-48 hours</p>
+
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-12 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Your name</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Your email</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Subject</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Your message</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+            </div>
+            <div class="status"></div>
         </div>
-        <div class="form-group">
-          <label for="email">Email address</label>
-          <input
-            type="email"
-            class="form-control"
-            id="email"
-            aria-describedby="emailHelp"
-            placeholder="Enter email"
-          />
-          <small id="emailHelp" class="form-text text-muted"
-            >We'll never share your email with anyone else.</small
-          >
-        </div>
-        <div class="form-group">
-          <label for="exampleInputPassword1">Password</label>
-          <input
-            type="password"
-            class="form-control"
-            id="exampleInputPassword1"
-            placeholder="Password"
-          />
-        </div>
-        <div class="form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-          <label class="form-check-label" for="exampleCheck1"
-            >Remember me</label
-          >
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        
+        <!--Grid column-->
+
     </div>
-  </body>
+
+</section>
+
+<!--Section: Contact v.2-->
+</div>
 </html>
