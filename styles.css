@@ -1,6 +1,7 @@
-.homepage {
+.landingPage {
   background-image: url(/images/homepage.jpg);
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
 h4 {
