@@ -34,6 +34,8 @@ svg {
   opacity: 0;
   animation: slide_up 3s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
 }
+/*  code for animation from https://codepen.io/shawkdsn/pen/haGzE */
+/* changed class names */
 .animation1 {
   font-weight: 300;
   animation-delay: 3;
