@@ -6,6 +6,9 @@ body {
 .space {
   white-space: pre;
 }
+.aboutPage {
+  height: 100%;
+}
 
 /* make background image responsive */
 /* https://mdbootstrap.com/snippets/jquery/mdbootstrap/916526#css-tab-view */
@@ -31,7 +34,11 @@ a {
   color: #8f31a1;
 }
 a.nav-link:hover {
-  background-color: #ecebed;
+  background-color: #ffffff;
+}
+.btn {
+  background-color: #8f31a1;
+  border: none;
 }
 h3 {
   display: inline;
