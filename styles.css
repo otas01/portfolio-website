@@ -22,7 +22,7 @@ body {
 /* https://mdbootstrap.com/snippets/jquery/mdbootstrap/916526#css-tab-view */
 .landingPage {
   height: 100%;
-  background-image: url(/images/homepage.JPG);
+  background-image: url(./images/homepage.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
