@@ -9,12 +9,13 @@ body {
 .aboutPage {
   height: 100%;
 }
-.aboutMeHome {
+.about-me-home {
   border-radius: 20px;
 }
-.aboutFont {
+.about-font {
   font-family: sans-serif;
   font-weight: 100;
+  font-style: italic;
   opacity: 0.95;
 }
 
