@@ -9,7 +9,7 @@ body {
 .aboutPage {
   height: 100%;
 }
-.about-me-home {
+.about-me {
   border-radius: 20px;
 }
 
@@ -56,11 +56,11 @@ svg {
 }
 /* code for animation from https://codepen.io/shawkdsn/pen/haGzE */
 /* changed class names */
-.animation1 {
+.animation-1 {
   font-weight: 300;
   animation-delay: 3;
 }
-.animation2 {
+.animation-2 {
   font-weight: 500;
   animation-delay: 1.5s;
 }
