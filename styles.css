@@ -12,12 +12,6 @@ body {
 .about-me-home {
   border-radius: 20px;
 }
-.about-font {
-  font-family: sans-serif;
-  font-weight: 100;
-  font-style: italic;
-  opacity: 0.95;
-}
 
 /* make background image responsive */
 /* https://mdbootstrap.com/snippets/jquery/mdbootstrap/916526#css-tab-view */
