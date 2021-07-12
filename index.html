@@ -4,8 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Otas' Home Page</title>
-    <link rel="stylesheet" href="css/bootstrap.css" />
-    <link rel="stylesheet" href="mystyles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/mystyles.css" />
   </head>
   <body>
     <div class="container-fluid landing-page">
@@ -33,7 +38,7 @@
                 <a class="nav-link" href="#" style="color: #8f31a1">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html" style="color: #8f31a1"
+                <a class="nav-link" href="#aboutMe" style="color: #8f31a1"
                   >About</a
                 >
               </li>
@@ -43,7 +48,7 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html" style="color: #8f31a1"
+                <a class="nav-link" href="#contactMe" style="color: #8f31a1"
                   >Contact</a
                 >
               </li>
@@ -78,8 +83,8 @@
       </div>
     </div>
     <br />
-    <header class="container">
-      <h2 class="text-center my-4">About me</h2>
+    <div class="container">
+      <h2 class="text-center my-4" id="aboutMe">About me</h2>
       <div class="row g-5 my-0 bg-dark text-white about-me align-items-center">
         <div class="col-sm">
           <p class="pb-4">
@@ -104,29 +109,30 @@
           </p>
           <p class="">
             Think we can create something together?
-            <a href="contact.html">Contact me</a> at your earliest convenience
-            and let's create greatness.
+            <a href="#contactMe">Contact me</a> at your earliest convenience and
+            let's create greatness.
           </p>
           <br />
           <br />
         </div>
         <div class="col-lg my-4">
           <img
+            class="profile-pic"
             src="images/profilepic.jpeg"
-            alt="photo"
-            width="100%"
-            height="100%"
-            style="border-radius: 20px"
+            alt="profile photo"
           />
         </div>
       </div>
-    </header>
+    </div>
     <hr />
     <!-- code snipppet for contact form from https://mdbootstrap.com/docs/b4/jquery/forms/contact/ -->
     <div class="container">
       <section class="mb-4">
         <!--Section heading-->
-        <h2 class="h1-responsive font-weight-bold text-center my-4">
+        <h2
+          class="h1-responsive font-weight-bold text-center my-4"
+          id="contactMe"
+        >
           Need a website? Get in touch
         </h2>
         <!--Section description-->
@@ -219,6 +225,10 @@
     <footer class="footer text-center p-0">&copy;2021 Otas</footer>
     <hr />
 
-    <script src="js/bootstrap.bundle.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
