@@ -3,6 +3,10 @@ body {
   height: 100%;
   margin: 0;
 }
+.my-links {
+  color: #8f31a1 !important;
+}
+
 .space {
   white-space: pre;
 }
@@ -27,14 +31,18 @@ body {
 }
 /* make background image responsive */
 
+/* font-size value changed to "vmin" to reduce font size in extra small screens to ensure text remains in a single line */
 h4 {
   color: white;
   text-align: center;
+  font-size: 3.8vmin;
 }
+
+/* font-size value changed to "vmin" to reduce font size in extra small screens to ensure text remains in a single line */
 h1 {
   text-align: center;
   color: black;
-  font-size: 50pt;
+  font-size: 9.5vmin;
 }
 a {
   color: #8f31a1;
