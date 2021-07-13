@@ -35,7 +35,7 @@ body {
 h4 {
   color: white;
   text-align: center;
-  font-size: 3.8vmin;
+  font-size: 2.7vmin;
 }
 
 /* font-size value changed to "vmin" to reduce font size in extra small screens to ensure text remains in a single line */
@@ -44,9 +44,7 @@ h1 {
   color: black;
   font-size: 9.5vmin;
 }
-a {
-  color: #8f31a1;
-}
+
 a.nav-link:hover {
   background-color: #ffffff;
 }
