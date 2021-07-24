@@ -1,3 +1,6 @@
 # portfolio-website
-I have just begun the journey to becoming a web developer and this is my first real life project. 
-The project is for my porftolio website
+This project is for my first milestone project with The Learning People. It is a portfolio website.
+# Technologies used
+  - HTML
+  - CSS
+  - Bootstrap 5
