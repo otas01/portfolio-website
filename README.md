@@ -1,4 +1,4 @@
-# portfolio-website
+#  My Portfolio Website - First Milestone Project
 
 This project is for my first milestone project with The Learning People. It is a portfolio website and I would certainly be improving the site as I progress in my web development journey. Being a portfolio website, it is meant to showcase my work to prospective clients and also to let them know a little more about my personal life. It also provides an easy way for me to be contacted for business consultations.
 
