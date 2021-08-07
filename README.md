@@ -4,9 +4,20 @@ This project is for my first milestone project with The Learning People. It is a
 
 # Technologies used
 
+- Visual Studio Code
+  - The IDE used for this project was Visual Studio Code. For this project, I made commits and pushed my code to GitHub using this IDE.
 - HTML
+  - HTML was use to create the elements across the entire website before styling with CSS3 and Bootstrap 5.
 - CSS3
-- Bootstrap 5
+  - A few elemets were personally styled by me using CSS3
+- Javascript
+  - Minimal javascript was used in this project and it was entirely from Bootstrap 5. It was used to make the navbar collapsible.
+- Bootstrap 5.1.0
+  - The bulk of the styling in this project was from Bootstrap version 5. This helped with a responsive design, navbar and general page structure.
+- Git
+  - The project uses Git for version control through regular commits.
+- GitHub
+  - I regularly pushed my code to GitHub.
 
 # UX
 
@@ -23,9 +34,9 @@ This project is for my first milestone project with The Learning People. It is a
 
 # Features
 
-# Navbar
+     # Navbar
 
-     I used bootstrap 5's navbar and made it collapsible on smaller screens to keep the page neat. Each link targeted the desired area of the website. There is a logo as well which links to the landing page.
+- I used bootstrap 5's navbar and made it collapsible on smaller screens to keep the page neat. Each link targeted the desired area of the website. There is a logo as well which links to the landing page.
 
 # Social media icons
 
@@ -41,9 +52,9 @@ This project is for my first milestone project with The Learning People. It is a
 
 # Potential improvements
 
-    - A better looking logo. I intend to get a more representative logo after I learn a bit about graphic design particularly for this logo.
-    - Background image in landing page may be changed to a brighter, sharper image, even though this may neccessitate modifying a few colors
-    - When I learn a bit more about javascript and some back end, I would use a proper method in getting form data
+- A better looking logo. I intend to get a more representative logo after I learn a bit about graphic design particularly for this logo.
+- Background image in landing page may be changed to a brighter, sharper image, even though this may neccessitate modifying a few colors
+- When I learn a bit more about javascript and some back end, I would use a proper method in getting form data
 
 # Responsive testing
 
@@ -67,6 +78,16 @@ This project is for my first milestone project with The Learning People. It is a
 
 # Content
 
+- The content of the website was largely mine as it had to be.
+- The background image of the landing page was downloaded from www.unsplash.com
+- The contact form was downloaded from https://mdbootstrap.com/docs/b4/jquery/forms/contact/ and modified by me
+- The template for the cards in the portfolio section was downloaded from bootstrap website and the images downloaded from www.unsplash.com
+
 # Media
 
+- The media for this project were entirely copyright-free, dowloaded from www.unsplash.com, www.pexels.com and also my personal photo.
+
 # Acknowledgements
+
+- I got a lot of initial advise from my first mentor, Sophie Wickham. She sent me links to very useful vidoes on Git and GitHub, AdobeXD, how to compresss images and sample Bootsrap websites. She was of immense help in starting off this project.
+- This project wouldn't be complete without critical input from my present mentor, Sunny Hebbar. He became my mentor in the middle of my project and took on the role seamlessly. He helped simplify my code in a number of areas and also is the inspiration behind this detailed ReadMe document. I also learned how to test for responsiveness of my website from him using Google Chrome developer tools
