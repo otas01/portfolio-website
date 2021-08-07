@@ -34,21 +34,21 @@ This project is for my first milestone project with The Learning People. It is a
 
 # Features
 
-     # Navbar
+- # Navbar
 
 - I used bootstrap 5's navbar and made it collapsible on smaller screens to keep the page neat. Each link targeted the desired area of the website. There is a logo as well which links to the landing page.
 
 # Social media icons
 
-     These link directly to my profiles on Twitter and Linkedin and I could easily be contacted there as well.
+- These link directly to my profiles on Twitter and Linkedin and I could easily be contacted there as well.
 
 # Contact form
 
-     Again, I created the contact form with a snippet of Bootstrap 5 code from mdbootsrap.com . I used formspree to make the contact form work so I can receive the data entered.
+- Again, I created the contact form with a snippet of Bootstrap 5 code from mdbootsrap.com . I used formspree to make the contact form work so I can receive the data entered.
 
 # Porfolio
 
-     There are a number of dummy images in the form of cards in the portfolio section just to show an example of how that section would look when it is populated with actual projects. Since this is my first ever website, there was no real project to include there.. for now...
+- There are a number of dummy images in the form of cards in the portfolio section just to show an example of how that section would look when it is populated with actual projects. Since this is my first ever website, there was no real project to include there.. for now...
 
 # Potential improvements
 
