@@ -4,7 +4,7 @@ This project is for my first milestone project with The Learning People. It is a
 
 # Technologies used
 
-- Visual Studio Code
+- [Visual Studio Code](https://code.visualstudio.com)
   - The IDE used for this project was Visual Studio Code. For this project, I made commits and pushed my code to GitHub using this IDE.
 - HTML
   - HTML was use to create the elements across the entire website before styling with CSS3 and Bootstrap 5.
@@ -12,7 +12,7 @@ This project is for my first milestone project with The Learning People. It is a
   - A few elements were personally styled by me using CSS3
 - Javascript
   - Minimal javascript was used in this project and it was entirely from Bootstrap 5. It was used to make the navbar collapsible.
-- Bootstrap 5.1.0
+- [Bootstrap 5.1.0](https://getbootstrap.com)
   - The bulk of the styling in this project was from Bootstrap version 5. This helped with a responsive design, navbar and general page structure.
 - Git
   - The project uses Git for version control through regular commits.
@@ -25,12 +25,12 @@ This project is for my first milestone project with The Learning People. It is a
 
 # HTML and CSS Validation
 
-- I used the W3C HTML Validator tool to validate my HTML code.
-- I used the W3C CSS Validator tool to validate my CSS code.
+- I used the [W3C HTML Validator tool](https://validator.w3.org/#validate_by_input) to validate my HTML code.
+- I used the [W3C CSS Validator tool](https://jigsaw.w3.org/css-validator/#validate_by_input) to validate my CSS code.
 
 # Mock up design
 
-- I used AdobeXD to design a mock up website before starting to write out the code for it. This was mainly for the landing page. I stuck with a simple white/black background for the other pages.
+- I used [AdobeXD](https://www.adobe.com/uk/products/xd.html) to design a mock up website before starting to write out the code for it. This was mainly for the landing page. I stuck with a simple white/black background for the other pages.
 
 # Features
 
