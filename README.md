@@ -38,7 +38,7 @@ This project is for my first milestone project with The Learning People. It is a
 
   - I used bootstrap 5's navbar and made it collapsible on smaller screens to keep the page neat. Each link targeted the desired area of the website. There is a logo as well which links to the landing page.
 
-    - # Social media icons
+- # Social media icons
 
   - These link directly to my profiles on Twitter and Linkedin and I could easily be contacted there as well.
 
