@@ -1,6 +1,6 @@
 # portfolio-website
 
-This project is for my first milestone project with The Learning People. It is a portfolio website and I would certainly be improving the site as I progress in my web development journey. Being a porftolio website, it is meant to showcase my work to prospective clients and also to let them know a little more about my personal life. It also provides an easy way for me to be contacted for business consultations.
+This project is for my first milestone project with The Learning People. It is a portfolio website and I would certainly be improving the site as I progress in my web development journey. Being a portfolio website, it is meant to showcase my work to prospective clients and also to let them know a little more about my personal life. It also provides an easy way for me to be contacted for business consultations.
 
 # Technologies used
 
@@ -9,7 +9,7 @@ This project is for my first milestone project with The Learning People. It is a
 - HTML
   - HTML was use to create the elements across the entire website before styling with CSS3 and Bootstrap 5.
 - CSS3
-  - A few elemets were personally styled by me using CSS3
+  - A few elements were personally styled by me using CSS3
 - Javascript
   - Minimal javascript was used in this project and it was entirely from Bootstrap 5. It was used to make the navbar collapsible.
 - Bootstrap 5.1.0
@@ -21,7 +21,7 @@ This project is for my first milestone project with The Learning People. It is a
 
 # UX
 
-- I wanted a simple yet sophisticated website that would describe what I do at first glance and this was why I went with the style and colors I used. A website should be easy to navigate and I ensured this was the case. There are direct links to the about me, contact and porftolio sections and this is accessible throuhghout the page thanks to the fixed navbar. I also included a "back to top" link at the bottom of the page to further ease navigation through the site.
+- I wanted a simple yet sophisticated website that would describe what I do at first glance and this was why I went with the style and colours I used. A website should be easy to navigate and I ensured this was the case. There are direct links to the about me, contact and portfolio sections and this is accessible throughout the page thanks to the fixed navbar. I also included a "back to top" link at the bottom of the page to further ease navigation through the site.
 
 # HTML and CSS Validation
 
@@ -40,20 +40,20 @@ This project is for my first milestone project with The Learning People. It is a
 
 - # Social media icons
 
-  - These link directly to my profiles on Twitter and Linkedin and I could easily be contacted there as well.
+  - These link directly to my profiles on Twitter and LinkedIn and I could easily be contacted there as well.
 
 - # Contact form
 
   - Again, I created the contact form with a snippet of Bootstrap 5 code from mdbootsrap.com . I used formspree to make the contact form work so I can receive the data entered.
 
-- # Porfolio
+- # Portfolio
 
   - There are a number of dummy images in the form of cards in the portfolio section just to show an example of how that section would look when it is populated with actual projects. Since this is my first ever website, there was no real project to include there.. for now...
 
 # Potential improvements
 
 - A better looking logo. I intend to get a more representative logo after I learn a bit about graphic design particularly for this logo.
-- Background image in landing page may be changed to a brighter, sharper image, even though this may neccessitate modifying a few colors
+- Background image in landing page may be changed to a brighter, sharper image, even though this may necessitate modifying a few colours
 - When I learn a bit more about javascript and some back end, I would use a proper method in getting form data
 
 # Responsive testing
@@ -68,11 +68,11 @@ This project is for my first milestone project with The Learning People. It is a
 
 # Deployment
 
-- GitHub pages was the platform I used to deploy this website. I regularly commited by code on git and also kept pushing to github. I began with an intial commit and several other commits followed until the website was finished. Summarised below are the steps involved in deployment from start to finish
-  - Created a repository called portfolio-website on github
+- GitHub pages was the platform I used to deploy this website. I regularly committed by code on git and also kept pushing to GitHub. I began with an initial commit and several other commits followed until the website was finished. Summarised below are the steps involved in deployment from start to finish
+  - Created a repository called portfolio-website on GitHub
   - Cloned the repository on my visual studio code from where I made the initial commit and subsequent commits
-  - I kept pushing my code to github regularly
-  - When the website was complete, I pushed the final code to github and deployed using GitHub pages.
+  - I kept pushing my code to GitHub regularly
+  - When the website was complete, I pushed the final code to GitHub and deployed using GitHub pages.
 
 # Credits
 
@@ -89,5 +89,5 @@ This project is for my first milestone project with The Learning People. It is a
 
 # Acknowledgements
 
-- I got a lot of initial advise from my first mentor, Sophie Wickham. She sent me links to very useful vidoes on Git and GitHub, AdobeXD, how to compresss images and sample Bootsrap websites. She was of immense help in starting off this project.
+- I got a lot of initial advise from my first mentor, Sophie Wickham. She sent me links to very useful videos on Git and GitHub, AdobeXD, how to compress images and sample Bootstrap websites. She was of immense help in starting off this project.
 - This project wouldn't be complete without critical input from my present mentor, Sunny Hebbar. He became my mentor in the middle of my project and took on the role seamlessly. He helped simplify my code in a number of areas and also is the inspiration behind this detailed ReadMe document. I also learned how to test for responsiveness of my website from him using Google Chrome developer tools
