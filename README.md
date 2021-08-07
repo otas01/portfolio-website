@@ -12,7 +12,7 @@ This project is for my first milestone project with The Learning People. It is a
 # Mock up design
   - I used AdobeXD to design a mock up website before starting to write out the code for it. This was mainly for the landing page. I stuck with a simple white/black background for the other pages.
 # Features
-  # Navbar
+# Navbar
      I used bootstrap 5's navbar and made it collapsible on smaller screens to keep the page neat. Each link targeted the desired area of the website. There is a logo as well which links to the landing page.
   # Social media icons
      These link directly to my profiles on Twitter and Linkedin and I could easily be contacted there as well.
