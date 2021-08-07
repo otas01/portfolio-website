@@ -82,3 +82,9 @@ svg {
     transform: translateY(0);
   }
 }
+
+@media (max-height: 300px) {
+  .animation-1 {
+    color: white;
+  }
+}
