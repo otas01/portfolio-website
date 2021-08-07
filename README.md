@@ -36,19 +36,19 @@ This project is for my first milestone project with The Learning People. It is a
 
 - # Navbar
 
-- I used bootstrap 5's navbar and made it collapsible on smaller screens to keep the page neat. Each link targeted the desired area of the website. There is a logo as well which links to the landing page.
+  - I used bootstrap 5's navbar and made it collapsible on smaller screens to keep the page neat. Each link targeted the desired area of the website. There is a logo as well which links to the landing page.
 
-# Social media icons
+- # Social media icons
 
-- These link directly to my profiles on Twitter and Linkedin and I could easily be contacted there as well.
+  - These link directly to my profiles on Twitter and Linkedin and I could easily be contacted there as well.
 
-# Contact form
+- # Contact form
 
-- Again, I created the contact form with a snippet of Bootstrap 5 code from mdbootsrap.com . I used formspree to make the contact form work so I can receive the data entered.
+  - Again, I created the contact form with a snippet of Bootstrap 5 code from mdbootsrap.com . I used formspree to make the contact form work so I can receive the data entered.
 
-# Porfolio
+- # Porfolio
 
-- There are a number of dummy images in the form of cards in the portfolio section just to show an example of how that section would look when it is populated with actual projects. Since this is my first ever website, there was no real project to include there.. for now...
+  - There are a number of dummy images in the form of cards in the portfolio section just to show an example of how that section would look when it is populated with actual projects. Since this is my first ever website, there was no real project to include there.. for now...
 
 # Potential improvements
 
@@ -76,16 +76,16 @@ This project is for my first milestone project with The Learning People. It is a
 
 # Credits
 
-# Content
+- # Content
 
-- The content of the website was largely mine as it had to be.
-- The background image of the landing page was downloaded from www.unsplash.com
-- The contact form was downloaded from https://mdbootstrap.com/docs/b4/jquery/forms/contact/ and modified by me
-- The template for the cards in the portfolio section was downloaded from bootstrap website and the images downloaded from www.unsplash.com
+  - The content of the website was largely mine as it had to be.
+  - The background image of the landing page was downloaded from www.unsplash.com
+  - The contact form was downloaded from https://mdbootstrap.com/docs/b4/jquery/forms/contact/ and modified by me
+  - The template for the cards in the portfolio section was downloaded from bootstrap website and the images downloaded from www.unsplash.com
 
-# Media
+- # Media
 
-- The media for this project were entirely copyright-free, dowloaded from www.unsplash.com, www.pexels.com and also my personal photo.
+  - The media for this project were entirely copyright-free, dowloaded from www.unsplash.com, www.pexels.com and also my personal photo.
 
 # Acknowledgements
 
