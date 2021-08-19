@@ -13,14 +13,14 @@
     <link rel="stylesheet" href="static/css/mystyles.css" />
   </head>
   <body>
-    <div class="container-fluid landing-page">
+    <header class="container-fluid landing-page">
       <!-- Navbar code from https://getbootstrap.com/docs/5.0/components/navbar/ then modified by me -->
       <!-- navbar start -->
       <div class="container" id="top-of-page">
         <nav class="navbar navbar-expand-sm navbar-light fixed-top px-5">
           <a class="navbar-brand" href="index.html">
             <img src="static/svg/logo.svg" width="40" height="40" alt="logo" />
-          </a>
+          </a>  
           <button
             class="navbar-toggler"
             type="button"
@@ -78,9 +78,10 @@
           </div>
         </div>
       </div>
-    </div>
+    </header>
     <br />
-    <div class="container">
+    <main>
+    <section class="container">
       <h2 class="text-center my-4" id="about-me">About me</h2>
       <div class="row g-5 m-0 bg-dark text-white about-me align-items-center">
         <div class="col-sm">
@@ -120,14 +121,16 @@
           />
         </div>
       </div>
-    </div>
+    </section>
     <hr />
 
-    <h2 class="h1-responsive font-weight-bold text-center my-4" id="portfolio">
-      Projects
-    </h2>
-
-    <div class="container">
+    <section class="container">
+      <h2
+        class="h1-responsive font-weight-bold text-center my-4"
+        id="portfolio"
+      >
+        Projects
+      </h2>
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
           <!-- card 1 -->
@@ -232,11 +235,11 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <hr />
     <!-- code snipppet for contact form from https://mdbootstrap.com/docs/b4/jquery/forms/contact/ -->
-    <div class="container">
-      <section class="mb-4">
+    <section class="container">
+      <div class="mb-4">
         <!--Section heading-->
         <h2
           class="h1-responsive font-weight-bold text-center my-4"
@@ -326,14 +329,16 @@
             </form>
           </div>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
     <!-- End of contact form  -->
     <div class="text-center mt-4">
       <a href="#top-of-page" class="my-links">Back to top</a>
     </div>
+    </main>
     <hr />
-    <footer class="footer text-center p-0">&copy;2021 Otas</footer>
+    <footer class="footer text-center p-0">
+      <p>>&copy;2021 Otas</p</footer>
     <hr />
 
     <script
