@@ -81,7 +81,7 @@ svg {
   }
 }
 
-@media (max-height: 400px) {
+@media (max-height: 350px) {
   .animation-1 {
     color: white;
   }
