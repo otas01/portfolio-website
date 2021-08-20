@@ -1,4 +1,4 @@
-#  My Portfolio Website - First Milestone Project
+# My Portfolio Website - First Milestone Project
 
 This project is for my first milestone project with The Learning People. It is a portfolio website and I would certainly be improving the site as I progress in my web development journey. Being a portfolio website, it is meant to showcase my work to prospective clients and also to let them know a little more about my personal life. It also provides an easy way for me to be contacted for business consultations.
 
@@ -30,7 +30,7 @@ This project is for my first milestone project with The Learning People. It is a
 
 # Mock up design
 
-- I used [AdobeXD](https://www.adobe.com/uk/products/xd.html) to design a mock up website before starting to write out the code for it. This was mainly for the landing page. I stuck with a simple white/black background for the other pages.
+- The [mock up for my website](https://xd.adobe.com/view/eefe92c6-f2c1-4662-8fa0-469f645a1d98-bbad/) was designed using AdobeXD before starting to write out the code for it. This was mainly for the landing page. I stuck with a simple white/black background for the other pages.
 
 # Features
 
@@ -54,7 +54,7 @@ This project is for my first milestone project with The Learning People. It is a
 
 - A better looking logo. I intend to get a more representative logo after I learn a bit about graphic design particularly for this logo.
 - Background image in landing page may be changed to a brighter, sharper image, even though this may necessitate modifying a few colours
-- When I learn a bit more about javascript and some back end, I would use a proper method in getting form data
+- When I learn a bit more about javascript and some back end, I would use a proper method in getting form data and also to get the navbar style to change after scrolling to a certain point on the website to improve visibility.
 
 # Responsive testing
 
@@ -63,16 +63,41 @@ This project is for my first milestone project with The Learning People. It is a
 # Interesting challenges
 
 - The greatest challenge was actually coming up with a design. I looked at a million other portfolio websites just to get an idea. I would probably still overhaul this website in the new future but it was indeed a challenge coming up with the final design and sticking with it.
-- Another challenge was getting to keep the logo on the left and the nav link items on the right. Got the fix and couldn't believe it was that simple.
-- Getting the my contact form to actually work posed a bit of a challenge but this was fixed following advice from my mentor
+- Another challenge was getting to keep the logo on the left and the nav link items on the right. Got the fix and couldn't believe it was that simple. Fixed it by adding Bootstrap 5 "ms-auto" class to the "ul" wrapper of the navigation links.
+- Getting my contact form to actually work posed a bit of a challenge but this was fixed following advice from my mentor. Got it work using [formspree](https://formspree.io).
+- Another thing I struggled with was preventing my social media icons from getting pushed below the landing page in landscape view. This was caused by some padding and margins I used. I fixed it by putting the items of interest into a flexbox container and used the "justify-content-around" class in Bootstrap 5 to ensure responsive spacing.
 
 # Deployment
 
 - GitHub pages was the platform I used to deploy this website. I regularly committed by code on git and also kept pushing to GitHub. I began with an initial commit and several other commits followed until the website was finished. Summarised below are the steps involved in deployment from start to finish
-  - Created a repository called portfolio-website on GitHub
-  - Cloned the repository on my visual studio code from where I made the initial commit and subsequent commits
-  - I kept pushing my code to GitHub regularly
-  - When the website was complete, I pushed the final code to GitHub and deployed using GitHub pages.
+  - Created a repository called "portfolio-website" on GitHub
+  - Linked the repository to my local IDE(Visual Studio Code) with the following steps;
+    - Opened up Visual Studio Code and clicked on clicked on “explorer” on the side bar
+    - Clicked on “Clone Repository” and then pasted the GitHub repository URL in the input area provided when prompted
+    - I then selected the preferred location to save the cloned repository locally on my computer
+  - I then made the initial commit using the source control feature using "init" as the commit message
+  - I kept pushing my code to GitHub regularly by using the "push" function in Visual Studio Code's source control.
+  - When the website was complete, I pushed the final code to GitHub and deployed using GitHub pages as outlined below;
+    - Signed into my GitHub account and opened the repository for the project
+    - Clicked on settings and then into pages in the settings menu
+    - Selected the main branch and also the root folder and clicked on save
+    - Tried to see if it worked by entering the url into a browser
+
+# Repository link
+
+https://github.com/otas01/portfolio-website
+
+# Website link
+
+https://otas01.github.io/portfolio-website/
+
+# Running code locally
+
+To get a copy of my code to run on your system, follow the steps below;
+
+- Go to [my project repository](https://github.com/otas01/portfolio-website)
+- Click on "code" dropdown and then "download zip"
+- Extract files from download and run code locally
 
 # Credits
 
